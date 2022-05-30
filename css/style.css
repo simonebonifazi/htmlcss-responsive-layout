@@ -111,8 +111,27 @@ header>div {
     align-content: center;
 }
 
+.testimonials>div {
+    width: 100%;
+}
+
 .testimonials .card {
     border-radius: 1rem;
-    width: 100%;
     height: 12rem;
+}
+
+/*  benefits section */
+
+.benefits {
+    flex-direction: column;
+}
+
+.benefits>div {
+    width: 100%;
+}
+
+.benefits .card {
+    border-radius: 0.8rem;
+    height: 5rem;
+    margin: 0.5rem;
 }

@@ -18,6 +18,17 @@
     .testimonials>.card {
         max-height: 5rem;
     }
+
+    .benefits {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .benefits .card {
+        width: 45%;
+        margin: 0.5rem;
+    }
 }
 
 @media screen and (max-width:1139px) {
@@ -40,5 +51,8 @@
         flex-wrap: wrap;
     }
 
+    .benefits .card {
+        width: 30%;
+    }
 
 }
