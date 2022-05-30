@@ -18,9 +18,14 @@ section {
     padding: 1rem;
 }
 
+section:last-child {
+    margin-bottom: 0;
+}
+
 .container {
     max-width: 1040px;
 }
+
 
 /* utils */
 
@@ -147,3 +152,30 @@ header>div {
 }
 
 /* get-started section */
+
+.get-started>div {
+    text-align: center;
+    max-width: 40rem;
+}
+
+/* footer */
+
+footer {
+    min-height: 5rem;
+    background-color: #333333;
+}
+
+.container-footer {
+
+    padding: 0.5rem 2rem;
+    flex-direction: column;
+    align-content: center;
+
+
+    max-width: 40rem;
+
+}
+
+.container-footer>div {
+    margin: 1rem 0;
+}

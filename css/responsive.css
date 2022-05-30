@@ -33,6 +33,7 @@
     .about-us {
         flex-direction: row;
         flex-wrap: wrap;
+
     }
 
     .about-us>div {
