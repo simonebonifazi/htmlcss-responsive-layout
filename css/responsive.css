@@ -31,4 +31,8 @@
     header ul {
         display: flex;
     }
+
+    .strategic {
+        flex-wrap: wrap;
+    }
 }

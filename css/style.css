@@ -15,6 +15,11 @@ body {
 
 section {
     margin-bottom: 2.5rem;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 1040px;
 }
 
 /* utils */
@@ -34,9 +39,12 @@ header {
     min-height: 3rem;
     min-width: 100%;
     background-color: #0084FD;
+
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+
     position: fixed;
     z-index: 1;
-    margin-bottom: 2.5rem;
 }
 
 header>div {
@@ -56,7 +64,7 @@ header>div {
     background-color: #9792E4;
 }
 
-/* first section */
+/* section advantages */
 
 .row {
     flex-direction: column;
@@ -79,4 +87,10 @@ header>div {
 
 .col {
     height: 15%;
+}
+
+/* section strategic */
+
+.strategic .card {
+    border-radius: 1rem;
 }
