@@ -91,6 +91,28 @@ header>div {
 
 /* section strategic */
 
+.strategic {
+    flex-direction: column;
+
+}
+
+.strategic>div {
+    width: 100%;
+}
+
 .strategic .card {
     border-radius: 1rem;
+}
+
+/* section testimonial */
+
+.testimonials {
+    flex-direction: column;
+    align-content: center;
+}
+
+.testimonials .card {
+    border-radius: 1rem;
+    width: 100%;
+    height: 12rem;
 }
