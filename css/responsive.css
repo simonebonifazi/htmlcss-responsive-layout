@@ -29,6 +29,15 @@
         width: 45%;
         margin: 0.5rem;
     }
+
+    .about-us {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-us>div {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:1139px) {
@@ -55,4 +64,7 @@
         width: 30%;
     }
 
+    .about-us .card {
+        width: 30%;
+    }
 }
