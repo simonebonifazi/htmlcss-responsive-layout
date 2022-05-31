@@ -51,7 +51,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 
@@ -294,10 +294,47 @@ header ul li {
 
 #about-us {
     flex-direction: column;
+    text-align: justify;
 }
 
-#about-us>div {
-    width: 100%;
+#about-us h3 {
+    color: #9792E4;
+    font-size: 3.3rem;
+}
+
+#about-us p {
+    margin: 2rem 0;
+}
+
+#about-us img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+
+}
+
+#about-us .positioning-quotes {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#about-us .card {
+    padding: 2rem;
+    position: relative;
+}
+
+#about-us .fa-quote-left {
+    color: #9792E4;
+    font-size: 5.5rem;
+}
+
+
+#about-us .description {
+    color: #9792E4;
+    font-weight: bold;
+    display: block;
+    font-size: larger;
 }
 
 /* get-started section */
@@ -326,5 +363,5 @@ footer {
 }
 
 .container-footer>div {
-    margin: 1rem 0;
+    margin: 1rem auto;
 }
