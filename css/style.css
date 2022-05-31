@@ -12,10 +12,13 @@ body {
 }
 
 /*  generics */
+.container {
+    max-width: 540px;
+    margin: 0 auto;
+}
 
 section {
-    margin-bottom: 2.5rem;
-    padding: 1rem;
+    padding: 1rem 1rem 2.5rem 1rem;
     line-height: 1.5rem;
 }
 
@@ -23,10 +26,6 @@ section:last-child {
     margin-bottom: 0;
 }
 
-.container {
-    max-width: 540px;
-    margin: 0 auto;
-}
 
 
 /* utils */
@@ -108,7 +107,7 @@ header ul li {
 }
 
 .advantages .row [class^="col"] {
-    border-radius: 5px;
+    border-radius: 1rem;
     margin-bottom: 0.5rem;
     background-color: #B5DDFF;
     padding: 1rem
@@ -149,7 +148,7 @@ header ul li {
 .advantages .btn {
     background-color: #0084FD;
     color: #fff;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     display: block;
     width: 55%;
     text-align: center;
@@ -192,6 +191,10 @@ header ul li {
     background-color: #fff;
     color: #000;
     text-align: center;
+}
+
+#planning .card p {
+
     font-style: italic;
 }
 
@@ -238,20 +241,53 @@ header ul li {
     margin-top: 1.5rem;
 }
 
-/*  benefits section */
+/*  features benefits section */
 
 #features {
     flex-direction: column;
+    color: white;
+    text-align: center;
 }
 
-#features>div {
-    width: 100%;
+#features {
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+#features .title-feature {
+    min-width: 100%;
+    font-size: 2.3rem;
 }
 
 #features .card {
     border-radius: 0.8rem;
-    height: 5rem;
     margin: 0.5rem;
+    padding: 1.2rem;
+
+    background-color: #fff;
+    color: #9792E4;
+
+    text-align: justify;
+}
+
+#features .number {
+    font-size: 2.5rem;
+    display: block;
+    margin: 1.5rem 0;
+}
+
+#features .card p {
+    margin: 0.8rem 0;
+}
+
+#features .btn {
+    background-color: #9792E4;
+    border-radius: 1rem;
+    padding: 0.4rem 1.4rem;
+    text-align: center;
+    display: inline-block;
+    width: 40%;
 }
 
 /* about-us section */
