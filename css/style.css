@@ -8,7 +8,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 /*  generics */
@@ -46,7 +46,6 @@ header {
     width: 100%;
     background-color: #0084FD;
 
-    line-height: 3rem;
     padding: 1rem;
 
     position: fixed;
@@ -63,7 +62,7 @@ li {
 a {
     text-decoration: none;
     padding: 00.4rem;
-    margin: 0 00.4rem;
+    margin: 00.4rem;
     color: #fff;
     cursor: pointer;
 }
@@ -89,11 +88,6 @@ header ul li {
     justify-content: space-between;
 }
 
-/* .fa-bars {
-    margin-right: 0;
-    padding-right: 1rem;
-} */
-
 /* main */
 
 
@@ -105,13 +99,14 @@ header ul li {
 
 /* section advantages */
 
-.row {
+.advantages .row {
     flex-direction: column;
-    justify-content: space-around;
-    height: 25rem;
+    align-items: center;
+    height: auto;
+
 }
 
-.row [class^="col"] {
+.advantages .row [class^="col"] {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 0.5rem;
@@ -119,14 +114,30 @@ header ul li {
     padding: 1rem
 }
 
-.col-big {
+.advantages .col-big {
     flex-direction: column;
+    text-align: justify;
+    line-height: 2rem;
+
 }
 
-.half-big>* {
-    margin-bottom: 0.6rem;
+
+.advantages .half-up>* {
+    margin: 1rem 0;
 }
 
+.advantages .half-down {
+    text-align: center;
+}
+
+.advantages .col {
+    text-align: center;
+    line-height: 2rem;
+}
+
+.advantages .fa-solid {
+    color: #0084FD;
+}
 
 .advantages h3 {
     color: #0084FD;
@@ -139,7 +150,15 @@ header ul li {
 .advantages .btn {
     background-color: #0084FD;
     color: #fff;
+    border-radius: 1rem;
+    display: block;
+    width: 55%;
+    text-align: center;
 
+}
+
+.advantages img {
+    max-width: 60%;
 }
 
 
