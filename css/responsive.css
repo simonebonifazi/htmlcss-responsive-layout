@@ -8,11 +8,20 @@
     }
 
     .advantages .col-big {
-        width: 60%;
+        width: calc(100% / 3 * 2 - 1rem);
+        height: auto;
+
     }
 
     .advantages .col {
-        width: 30%;
+        width: calc(100% / 3 - 1rem);
+
+    }
+
+    .advantages .row [class^="col"] {
+
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 
     .testimonials>.card {
@@ -55,6 +64,14 @@
 
     header ul {
         display: flex;
+    }
+
+    .advantages .col-big {
+        flex-direction: row;
+    }
+
+    .advantages .col-big>div {
+        width: 50%;
     }
 
     .strategic {

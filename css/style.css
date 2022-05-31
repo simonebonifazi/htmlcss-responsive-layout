@@ -41,24 +41,43 @@ section:last-child {
 /* header */
 
 header {
-    min-height: 3rem;
-    min-width: 100%;
+    width: 100%;
     background-color: #0084FD;
 
     line-height: 3rem;
     margin-bottom: 2.5rem;
 
     position: fixed;
-    z-index: 1;
+    top: 0;
+    left: 0;
+    /* z-index: 1; */
 }
 
-header>div {
-    justify-content: space-between;
+.ordering-header {
+    align-items: center;
 }
 
-.advantages {
-    padding-top: 5rem;
+li {
+    list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+    padding: 00.4rem;
+    margin: 0 00.4rem;
+    color: #fff
+}
+
+header .btn {
+    background-color: #fff;
+    color: #000;
+    border-radius: 1rem;
+}
+
+.left-header {
+    width: 50%;
+}
+
 
 /* main */
 
@@ -70,6 +89,9 @@ header>div {
 }
 
 /* section advantages */
+.advantages {
+    padding-top: 5rem;
+}
 
 .row {
     flex-direction: column;
@@ -77,22 +99,38 @@ header>div {
     height: 25rem;
 }
 
-.row,
-.col-big,
-.col {
+.row [class^="col"] {
     width: 100%;
-    padding: 1.5rem;
     border-radius: 5px;
     margin-bottom: 0.5rem;
+    background-color: #B5DDFF;
+    padding: 1rem
 }
 
 .col-big {
-    height: 30%;
+    flex-direction: column;
 }
 
-.col {
-    height: 15%;
+.half-big>* {
+    margin-bottom: 0.6rem;
 }
+
+
+.advantages h3 {
+    color: #0084FD;
+}
+
+.advantages p {
+    color: #5A6E7F;
+}
+
+.advantages .btn {
+    background-color: #0084FD;
+    color: #fff;
+
+}
+
+
 
 /* section strategic */
 
