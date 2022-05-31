@@ -16,6 +16,7 @@ body {
 section {
     margin-bottom: 2.5rem;
     padding: 1rem;
+    line-height: 1.5rem;
 }
 
 section:last-child {
@@ -116,7 +117,6 @@ header ul li {
 .advantages .col-big {
     flex-direction: column;
     text-align: justify;
-    line-height: 2rem;
 
 }
 
@@ -166,15 +166,38 @@ header ul li {
 
 #planning {
     flex-direction: column;
+    color: #fff;
 
 }
 
-#planning>div {
-    width: 100%;
+#planning h2 {
+    font-size: 2.5rem;
+    margin: 2.5rem 0;
+}
+
+#planning p {
+    margin: 1rem 0;
+}
+
+#planning img {
+    max-width: 40%;
 }
 
 #planning .card {
     border-radius: 1rem;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+#planning .btn {
+    border-radius: 50%;
+    background-color: #9792E4;
+    color: #000;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 1rem;
 }
 
 /* section testimonial */

@@ -89,7 +89,17 @@
     }
 
     #planning {
-        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+
+    #planning div {
+        width: 50%;
+    }
+
+    #planning .card {
+        width: 35%;
+        align-self: flex-end;
     }
 
     #features .card {
