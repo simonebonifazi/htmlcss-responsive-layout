@@ -339,16 +339,59 @@ header ul li {
 
 /* get-started section */
 
-.get-started>div {
+#start-now {
+    max-width: 720px;
+    margin: 0 auto;
+
     text-align: center;
-    max-width: 40rem;
+    color: #fff;
+}
+
+#start-now>* {
+    margin: 1.2rem 0;
+}
+
+#start-now .title-section {
+    color: #D5D4F4;
+    display: block;
+
+}
+
+#start-now .fa-circle {
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
+
+#start-now .for-free {
+    color: #FDC15F;
+    font-size: 2.5rem;
+}
+
+#start-now .btn {
+    background-color: #fff;
+    color: #9792E4;
+
+    width: 45%;
+    padding: 1rem;
+
+    display: block;
+    border-radius: 2.5rem;
+    margin: auto;
+}
+
+#start-now .link {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
 }
 
 /* footer */
 
 footer {
-    min-height: 5rem;
     background-color: #333333;
+    color: #fff;
+
+    text-align: center;
 }
 
 .container-footer {
@@ -358,10 +401,16 @@ footer {
     align-content: center;
 
 
-    max-width: 40rem;
+    max-width: 720px;
+    margin: 0 auto;
 
 }
 
-.container-footer>div {
-    margin: 1rem auto;
+footer a {
+    color: #9792E4;
+    text-decoration: underline;
+}
+
+.container-footer div {
+    margin: 3.5rem auto;
 }
