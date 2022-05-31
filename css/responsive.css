@@ -10,11 +10,11 @@
     .advantages .row {
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: stretch;
     }
 
     .advantages .col-big {
         width: calc(100% / 3 * 2 - 1rem);
-        height: auto;
 
     }
 
