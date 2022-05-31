@@ -2,6 +2,12 @@
 /* @media screen and (min-width:768px) {} */
 
 @media screen and (min-width:768px) {
+
+    .container {
+        max-width: 735px;
+    }
+
+
     .advantages .row {
         flex-direction: row;
         flex-wrap: wrap;
@@ -24,46 +30,55 @@
         margin-right: 0.5rem;
     }
 
-    .testimonials>.card {
+    #testimonial>.card {
         max-height: 5rem;
     }
 
-    .benefits {
+    #features {
         flex-direction: row;
         flex-wrap: wrap;
 
     }
 
-    .benefits .card {
+    #features .card {
         width: 45%;
         margin: 0.5rem;
     }
 
-    .about-us {
+    #about-us {
         flex-direction: row;
         flex-wrap: wrap;
 
     }
 
-    .about-us>div {
+    #about-us>div {
         width: 50%;
     }
 }
 
-@media screen and (max-width:1139px) {
-    header ul li {
-        display: none;
-    }
 
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 975px;
+    }
 }
 
-@media screen and (min-width:1140px) {
+@media screen and (min-width:1200px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
     header .fa-bars {
         display: none;
     }
 
     header ul {
         display: flex;
+    }
+
+    header ul li {
+        display: block;
     }
 
     .advantages .col-big {
@@ -74,15 +89,15 @@
         width: 50%;
     }
 
-    .strategic {
+    #planning {
         flex-wrap: wrap;
     }
 
-    .benefits .card {
+    #features .card {
         width: 30%;
     }
 
-    .about-us .card {
+    #about-us .card {
         width: 30%;
     }
 }

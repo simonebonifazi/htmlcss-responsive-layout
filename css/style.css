@@ -7,8 +7,8 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
+    padding-top: 5rem;
 }
 
 /*  generics */
@@ -22,9 +22,9 @@ section:last-child {
     margin-bottom: 0;
 }
 
-.container {
+/* .container {
     max-width: 1040px;
-}
+} */
 
 
 /* utils */
@@ -78,20 +78,21 @@ header .btn {
     width: 50%;
 }
 
+header ul li {
+    display: none;
+}
+
 
 /* main */
 
 
-.strategic,
-.benefits,
+#planning,
+#features,
 .get-started {
     background-color: #9792E4;
 }
 
 /* section advantages */
-.advantages {
-    padding-top: 5rem;
-}
 
 .row {
     flex-direction: column;
@@ -134,46 +135,46 @@ header .btn {
 
 /* section strategic */
 
-.strategic {
+#planning {
     flex-direction: column;
 
 }
 
-.strategic>div {
+#planning>div {
     width: 100%;
 }
 
-.strategic .card {
+#planning .card {
     border-radius: 1rem;
 }
 
 /* section testimonial */
 
-.testimonials {
+#testimonial {
     flex-direction: column;
     align-content: center;
 }
 
-.testimonials>div {
+#testimonial>div {
     width: 100%;
 }
 
-.testimonials .card {
+#testimonial .card {
     border-radius: 1rem;
     height: 12rem;
 }
 
 /*  benefits section */
 
-.benefits {
+#features {
     flex-direction: column;
 }
 
-.benefits>div {
+#features>div {
     width: 100%;
 }
 
-.benefits .card {
+#features .card {
     border-radius: 0.8rem;
     height: 5rem;
     margin: 0.5rem;
@@ -181,11 +182,11 @@ header .btn {
 
 /* about-us section */
 
-.about-us {
+#about-us {
     flex-direction: column;
 }
 
-.about-us>div {
+#about-us>div {
     width: 100%;
 }
 
