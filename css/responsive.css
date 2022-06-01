@@ -7,23 +7,23 @@
     }
 
 
-    .advantages .row {
+    #advantages .row {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: stretch;
     }
 
-    .advantages .col-big {
+    #advantages .col-big {
         width: calc(100% / 3 * 2 - 1rem);
 
     }
 
-    .advantages .col {
+    #advantages .col {
         width: calc(100% / 3 - 1rem);
 
     }
 
-    .advantages .row [class^="col"] {
+    #advantages .row [class^="col"] {
 
         margin-left: 0.5rem;
         margin-right: 0.5rem;
@@ -33,7 +33,7 @@
         flex-direction: row;
     }
 
-    #features {
+    #features .card-deck {
         flex-direction: row;
         flex-wrap: wrap;
 
@@ -57,6 +57,14 @@
     #about-us .card {
         width: 40%;
     }
+
+    #start-now .container {
+        max-width: 550px;
+    }
+
+    .container-footer {
+        max-width: 550px;
+    }
 }
 
 
@@ -69,8 +77,7 @@
 @media screen and (min-width:1200px) {
 
     .container {
-        max-width: 1140px;
-        margin: 0 auto;
+        width: 1140px;
     }
 
     header .fa-bars {
@@ -85,26 +92,27 @@
         display: inline-block;
     }
 
-    .advantages .col-big {
+    #advantages .col-big {
         flex-direction: row;
     }
 
-    .advantages .col-big>div {
+    #advantages .col-big>div {
         width: 50%;
     }
 
-    #planning {
+    #planning .strategic-planning {
         flex-direction: row;
     }
 
 
-    #planning div {
-        width: 50%;
+    #planning .girl-pc {
+        width: 100%;
     }
 
     #planning .card {
-        width: 35%;
+        width: 100%;
         align-self: flex-end;
+        margin-left: 2rem;
     }
 
     #features .card {
